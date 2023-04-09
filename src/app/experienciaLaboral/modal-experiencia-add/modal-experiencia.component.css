@@ -1,0 +1,15 @@
+
+  /*modal*/
+
+  .modal-content{
+    position: absolute;
+    margin-top: 90%;
+    left: 50%;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .form-control{
+    color: grey;
+  }
+

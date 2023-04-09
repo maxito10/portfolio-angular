@@ -1,0 +1,34 @@
+<div class="modal-content" data-backdrop="static">
+  <h1 class="modal-title">Iniciar Sesión</h1>
+  <br>
+  <p class="text-white-50 mb-5"> Por favor,ingresar usuario y clave</p>
+
+  <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+    <div class="form-outline form-white mb-4">
+      <input
+        type="user"
+        id="nombreUsuario"
+
+        class="form-control form-control-lg" [(ngModel)]="nombreUsuario" name="nombreUsuario" required
+      />
+      <label class="form-label" for="nombreUsuario">Usuario</label>
+    </div>
+
+    <div class="form-outline form-white mb-4">
+      <input
+        type="password"
+        id="password"
+        class="form-control form-control-lg" [(ngModel)]="password" name="password" required
+        />
+
+      <label class="form-label" for="password"
+        >Contraseña</label
+      >
+    </div>
+   <button class="btn btn-outline-light btn-lg px-5" type="submit">
+      INGRESO
+    </button>
+</form>
+
+
+</div>

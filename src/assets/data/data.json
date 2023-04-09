@@ -1,0 +1,42 @@
+{
+
+  "name": "Sofia Victoria" ,
+  "surname": "Gutierrez",
+  "imagenPerfil":"../assets/IMG/fotoperfil1.png",
+  "title":"Full Stack Developer Jr.",
+
+    "about":"Mi nombre es Sofia , tengo 27 años, me apasiona la tecnología y el mundo IT. Desarrolladora Full Stack . Recibida recientemente de Argentina Programa . Soy  muy curiosa y constantemente quiero aprender más para ampliar mis conocimientos con el objetivo de progresar y crecer en mi carrera como desarrolladora. Con comunicación, trabajo en equipo, empatía, autodidacta, pensamiento creativo y resolución de problemas.",
+
+
+
+  "education":[{
+    "img":"https://aquilasnoticias.com.ar/wp-content/uploads/2022/07/Diseno-sin-titulo-1-1.png",
+    "school": "Argentina Programa",
+    "title":"Full Stack Developer Jr.",
+    "start":"2022",
+    "end":"2023"},
+
+   { "img":"https://nssc.sistemasescolares.com.ar/wp-content/uploads/2020/04/ESCUDO-DEL-COLE-2.jpg",
+     "school":"Instituto Nuestra Señora del Sagrado Corazón",
+     "title":"Bachiller Orientado a las Cs. Sociales",
+     "start":"2006",
+     "end":"2012"
+    }],
+
+    "experienciaLaboral":[{
+      "imagenEmpresa":"https://aquilasnoticias.com.ar/wp-content/uploads/2022/07/Diseno-sin-titulo-1-1.png",
+      "nombreEmpresa": "Argentina Programa",
+      "Cargo":"Estudiante",
+      "start":"2022",
+      "end":"2023"
+    }],
+
+    "hard&softkills":{
+      "imagenSkills":"#",
+      "tecnologia":"#"
+
+    }
+  }
+
+
+

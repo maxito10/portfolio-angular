@@ -1,0 +1,142 @@
+/*barra de navegacion*/
+.navbar.navbar-expand-lg.bg-info{
+  display: flex;
+  width: 100%;
+  background: rgb(27,0,36);
+  background: linear-gradient(90deg, rgb(231, 219, 242) 15%, rgb(83, 19, 185) 65%, rgb(75, 2, 185) 100%);
+  }
+
+
+
+  /* cierre barra de navegacion*/
+
+  /*logo arg programa */
+
+  img, svg {
+
+    vertical-align: middle;
+    height: 80px;
+  }
+
+/*redes*/
+.list-group.list-group-horizontal{
+  margin-left: auto;
+  display: flex;
+}
+
+
+.list-group-item{
+display: flex;
+  --bs-list-group-bg: transparent
+
+}
+.list-group-item{
+display: flex;
+--bs-list-group-border-color: none
+}
+
+.list-group-item{
+display: flex;
+  margin-left: -10%;
+}
+
+/*estilos redes*/
+.bi.bi-unlock{
+  color: #fff;
+}
+.bi.bi-lock{
+  color: #fff;
+}
+.bi.bi-lock:hover{
+  color:#0ff;
+}
+
+
+svg.bi.bi-instagram{
+  cursor: pointer;
+  color:#fff;
+
+}
+
+svg.bi.bi-instagram:hover{
+  color: rgb(247, 66, 126);
+}
+
+  svg.bi.bi-facebook{
+    cursor:pointer
+  }
+
+ svg.bi.bi-facebook{
+color: #fff;
+ }
+
+ svg.bi.bi-facebook:hover{
+  color: rgb(29, 45, 219);
+   }
+
+   svg.bi.bi-linkedin{
+    cursor:pointer
+  }
+
+  svg.bi.bi-linkedin{
+    color: white;
+  }
+
+  svg.bi.bi-linkedin:hover{
+    color: rgb(45, 79, 187);
+  }
+
+/*modal*/
+
+.modal-content{
+  position: absolute;
+  margin-top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%,-50%);
+  background: #110429;
+  box-shadow: 0 15px 25px rgba(143,124,236,0.7);
+  border-radius: 10px;
+}
+
+
+
+.col-sm-12.col-form-label{
+  color: #fff;
+}
+
+.modal-title{
+  margin-left: 40%;
+  color: #fff;
+}
+
+.user-box input{
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+
+}
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-modal-header-padding);
+   border-bottom: none;
+
+}
+
+.modal-footer{
+  border-top: none;
+}
+
+

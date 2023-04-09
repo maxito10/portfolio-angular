@@ -1,0 +1,10 @@
+/*modal*/
+
+.modal-content{
+  position: absolute;
+  margin-top: 80%;
+  left: 50%;
+  width: 80%;
+  padding: 20px;
+}
+

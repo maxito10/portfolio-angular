@@ -1,0 +1,13 @@
+/*modal*/
+
+.form-label{
+  color:#fff;
+}
+
+.modal-content{
+  position: absolute;
+  margin-top: 60%;
+  left: 50%;
+  width: 500px;
+  padding: 20px;
+}

@@ -1,0 +1,22 @@
+/*modal*/
+
+p{
+  color:#fff;
+font-size: small;
+}
+
+.modal-content{
+  position: absolute;
+  margin-top: 80%;
+  left: 50%;
+  width: 90%;
+  padding: 20px;
+}
+
+textarea.fb-multiline-text{
+width: 100%;
+height: 400px;
+}
+
+
+

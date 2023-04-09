@@ -1,0 +1,39 @@
+<!-- Crear Perfil Modal -->
+<div class="modal fade" data-backdrop="static" id="perfilModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Perfil</h5>
+
+  </div>
+  <form (ngSubmit)="onCreate()" novalidate>
+    <div class="modal-body">
+
+
+    <div class="mb-3">
+    <div class="Titulos">
+    <label for="formFile"  class="form-label">  Foto de Perfil  </label>
+    </div>
+    <input class="form-control" type="file" id="formFile">
+    </div>
+
+    <input class="form-control" type="text" placeholder="Nombre/s" aria-label="default input example" [(ngModel)]="nombre">
+  <br>
+  <input class="form-control" type="text" placeholder="Apellido" aria-label="default input example" [(ngModel)]="apellido">
+  <br>
+  <input class="form-control" type="text" placeholder="Titulo" aria-label="default input example" [(ngModel)]="titulo">
+
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+    <button class="btn btn-primary" (click)="onCreate()">Guardar cambios</button>
+
+
+    </div>
+  </form>
+
+  </div>
+
+  </div>
+  </div>
+

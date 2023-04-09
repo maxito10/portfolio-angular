@@ -1,0 +1,82 @@
+
+    #hys{
+      height: 750px;
+      width: 100%;
+
+
+
+  }
+
+
+.row{
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2%;
+
+
+}
+
+.hard{
+
+  text-align: center;
+cursor: pointer;
+}
+
+.hard{
+  line-height: 1.2em;
+    color: #0000;
+    text-shadow:
+     0 0 #fff,
+    0 1.2em #0ff;
+    overflow:hidden;
+    transition: .3s;
+}
+
+.hard:hover{
+  text-shadow:
+    0 -1.2em #fff,
+    0 0 #0ff;
+}
+/*lapizeditor*/
+
+
+
+
+.bi.bi-pencil{
+
+  top:25%;
+  left: 92%;
+   display: flex;
+
+   height: 20px;
+   width: 20px;
+   position:relative
+
+   ;
+  }
+
+  .bi.bi-file-x{
+      top: 25%;
+      margin-top: -22px;
+      left: 98%;
+      display: flex;
+
+      height: 25px;
+      width: 25px;
+      position:relative
+
+  }
+
+  @media(min-width:575px){
+    .bi.bi.bi-pencil{
+      left: 93%;
+  }
+}
+
+@media(min-width:900px){
+  .bi.bi.bi-pencil{
+    left: 94%;
+}
+}
+

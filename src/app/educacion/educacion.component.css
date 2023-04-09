@@ -1,0 +1,146 @@
+ /*educacion */
+
+#educacion{
+
+
+  height: 750px;
+  width: 100%;
+
+
+}
+.educ{
+
+  width: 100%;
+  align-items: center;
+margin-top: 2%;
+display: flex;
+justify-content: center;
+text-align: center;
+cursor: pointer;
+}
+.educ{
+  line-height: 1.2em;
+  color: #0000;
+  text-shadow:
+   0 0 #fff,
+  0 1.2em #0ff;
+  overflow:hidden;
+  transition: .3s;
+}
+
+.educ:hover{
+  text-shadow:
+  0 -1.2em #fff,
+  0 0 #0ff;
+}
+
+
+.mensajeEducacion{
+
+color: #fff;
+  height: 20rem;
+  margin-top: -1%;
+  display: flex;
+
+  justify-content: center;
+  width: 75%;
+  margin-left: 14%;
+  margin-right: 15%;
+
+}
+
+
+
+/*cierre educacion*/
+
+/*lapizeditor*/
+
+
+
+
+.bi.bi-pencil{
+
+  top:25%;
+  left: 92%;
+   display: flex;
+
+   height: 20px;
+   width: 20px;
+   position:relative
+
+   ;
+  }
+
+  .bi.bi-file-x{
+      top: 25%;
+      margin-top: -22px;
+      left: 96%;
+      display: flex;
+
+      height: 25px;
+      width: 25px;
+      position:relative
+
+  }
+
+  @media(min-width:575px){
+    .bi.bi.bi-pencil{
+      left: 93%;
+  }
+}
+
+@media(min-width:900px){
+  .bi.bi.bi-pencil{
+    left: 94%;
+}
+}
+
+
+/*educacion list*/
+
+img, svg {
+  vertical-align: middle;
+  height: 50px;
+  width: 60px;
+  position: relative;
+  bottom: -1rem;
+
+
+}
+h4{color: #fff;}
+
+h5{color: #fff;}
+
+h6{
+  color:#fff;
+  margin-left: 3%;
+  display: flex;
+
+  ;
+  }
+
+
+
+  ul{
+    list-style: none;
+  margin-top: 7%;
+    width: 100%;
+    height: 100%;
+  }
+
+  li{
+
+      display: flex;
+      text-align: center;
+
+  }
+
+  .list-info{
+    padding-left: 3%;
+    margin-bottom: 5%;
+  }
+
+
+
+
+

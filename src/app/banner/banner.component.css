@@ -1,0 +1,61 @@
+
+  /*banner*/
+
+  .carrusel{
+    width: 100%;
+height: 400px;
+ display: flex;
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-image: url(../../assets/IMG/financial-report-data-business-operations-260nw-1164994978.webp);
+
+
+    }
+
+
+    /*cierre de banner*/
+
+
+
+/*lapizeditor*/
+
+
+
+.bi.bi-pencil{
+
+  top:25%;
+  margin-top: 7%;
+  left: 92%;
+
+display: flex;
+   height: 20px;
+   width: 20px;
+   position:absolute
+
+   ;
+  }
+
+  .bi.bi-file-x{
+      top: 25%;
+      margin-top: 7%;
+      left: 96%;
+
+display: flex;
+height: 25px;
+      width: 25px;
+      position:absolute
+
+  }
+
+  @media(min-width:575px){
+    .bi.bi.bi-pencil{
+      left: 93%;
+  }
+}
+
+@media(min-width:900px){
+  .bi.bi.bi-pencil{
+    left: 94%;
+}
+}
+
